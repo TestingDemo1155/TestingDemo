@@ -4,8 +4,9 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import android.widget.LinearLayout;
 
 public class NewActivity  extends Activity{
   
@@ -13,14 +14,14 @@ public class NewActivity  extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		 LinearLayout ll=new LinearLayout(NewActivity.this);
-	      
+	        LinearLayout ll=new LinearLayout(NewActivity.this);
+	        setContentView(ll);
 	    	TextView tv=new TextView(NewActivity.this);
 			Log.e("hi", "hi");
 			tv.setText("hello world");
 			tv.setTextColor(Color.CYAN);
-			ll.addView(tv);
-			setContentView(ll);
+		
 	}
+	
 	
 }
