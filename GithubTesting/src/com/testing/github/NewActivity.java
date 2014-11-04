@@ -22,9 +22,5 @@ public class NewActivity  extends Activity{
 			tv.setTextColor(Color.CYAN);
 			ll.addView(tv);
 			setContentView(ll);
-			
-		
 	}
-	
-	
 }
