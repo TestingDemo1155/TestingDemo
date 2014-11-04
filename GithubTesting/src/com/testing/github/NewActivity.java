@@ -15,11 +15,13 @@ public class NewActivity  extends Activity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 	        LinearLayout ll=new LinearLayout(NewActivity.this);
-	        setContentView(ll);
+	        
 	    	TextView tv=new TextView(NewActivity.this);
 			Log.e("hi", "hi");
 			tv.setText("hello world");
 			tv.setTextColor(Color.CYAN);
+			setContentView(ll);
+			
 		
 	}
 	
