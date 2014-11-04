@@ -20,6 +20,7 @@ public class NewActivity  extends Activity{
 			Log.e("hi", "hi");
 			tv.setText("hello world");
 			tv.setTextColor(Color.CYAN);
+			ll.addView(tv);
 			setContentView(ll);
 			
 		
