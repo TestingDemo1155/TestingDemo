@@ -1,5 +1,7 @@
 package com.testing.github;
 
-public class NewActivity {
+import android.app.Activity;
+
+public class NewActivity  extends Activity{
 
 }
