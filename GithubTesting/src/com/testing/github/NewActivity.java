@@ -1,6 +1,7 @@
 package com.testing.github;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
@@ -16,5 +17,6 @@ public class NewActivity  extends Activity{
 		TextView tv=new TextView(NewActivity.this);
 		Log.e("hi", "hi");
 		tv.setText("hello world");
+		tv.setTextColor(Color.CYAN);
 	}
 }
