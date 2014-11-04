@@ -20,7 +20,7 @@ public class NewActivity  extends Activity{
 			tv.setText("hello world");
 			tv.setTextColor(Color.CYAN);
 			ll.addView(tv);
-			  setContentView(ll);
+			setContentView(ll);
 	}
 	
 }
